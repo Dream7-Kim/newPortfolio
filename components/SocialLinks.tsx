@@ -8,7 +8,7 @@ const SocialLinks = () => {
       {socialLinks.email && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
-          color="white"
+          color="github"
           rel="noopener"
           aria-label="URL"
           href={socialLinks.email}
@@ -44,6 +44,20 @@ const SocialLinks = () => {
         >
           <span className="btn-inner--icon">
             <i className="fa fa-github" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.skype && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="github"
+          href={socialLinks.skype}
+          rel="noopener"
+          aria-label="kype"
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-skype" />
           </span>
         </Button>
       )}

@@ -107,6 +107,20 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+                {socialLinks.skype && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="skype"
+                      className="nav-link-icon"
+                      href={socialLinks.skype}
+                      target="_blank"
+                    >
+                      <i className="fa fa-skype" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">Skype</span>
+                    </NavLink>
+                  </NavItem>
+                )}
                 {socialLinks.linkedin && (
                   <NavItem>
                     <NavLink
