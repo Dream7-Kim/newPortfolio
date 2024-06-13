@@ -39,7 +39,7 @@ export async function getStaticProps() {
   // ).then(res => res.json());
   const githubProfileData: GithubUserType = {
     bio: "Full Stack Developer with multiple Languages | Mobile Application | Data Science - Crafting Seamless Tech Solutions for Businesses",
-    location : "Los Angeles, CA",
+    location : "Mihai Viteazu, Romania, 407405",
     avatar_url: "https://avatars.githubusercontent.com/talentedCoder0910",
   };
 
